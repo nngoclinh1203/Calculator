@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+.container {
+    width: 300px;
+    height: 330px;
+    margin: 80px auto;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 5px 5px 10px #b6a9a9,
+        -5px -5px 10px #ffffff;
+}
+.cal-box {
+    width: 250px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1tr 1tr 1tr 1tr 1tr;
+    grid-template-rows: 0tr 1tr 0tr 1tr 1tr 1tr 1tr 1tr;
+    gap: 10px;
+
+}
+#display {
+    border: none;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 20px 0 10px 0;
+    background: transparent;
+    box-shadow: inset 2px 2px 5px #babecc,
+        inset -5px -5px 10px #ffffff;
+    grid-column: 1 / 6;
+    grid-row: 2;
+}
+button {
+    border: none;
+    outline: none;
+    color: black;
+    width: 42px;
+    height: 42px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(214, 214, 214);
+
+    box-shadow: 5px 5px 10px #b6acac,
+    -5px -5px 10px #faf4f4;
+
+}
+button:active {
+    box-shadow: inset 1px 1px 2px #babecc,
+        inset -1px -1px 2px #fff;
+}
+.mathbutton {
+    color: white;
+    background-color: black;
+}
+#bC, #bCE {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.886);
+}
+#b0 {
+    grid-column: 1;
+    grid-row: 6;
+}
+#b1 {
+    grid-column: 1;
+    grid-row: 5;
+}
+#b2 {
+    grid-column: 2;
+    grid-row: 5;
+}
+#b3 {
+    grid-column: 3;
+    grid-row: 5;
+}
+#b4 {
+    grid-column: 1;
+    grid-row: 4;
+}
+#b5 {
+    grid-column: 2;
+    grid-row: 4;
+}
+#b6 {
+    grid-column: 3;
+    grid-row: 4;
+}
+#b7 {
+    grid-column: 1;
+    grid-row: 3;
+}
+#b8 {
+    grid-column: 2;
+    grid-row: 3;
+}
+#b9 {
+    grid-column: 3;
+    grid-row: 3;
+}
+#bC {
+    grid-column: 4;
+    grid-row: 3;
+}
+#bCE {
+    grid-column: 5;
+    grid-row: 3;
+}
+#bAdd {
+    grid-column: 4;
+    grid-row: 4;
+}
+#bSub {
+    grid-column: 5;
+    grid-row: 4;
+}
+#bMul {
+    grid-column: 4;
+    grid-row: 5;
+}
+#bDiv {
+    grid-column: 5;
+    grid-row: 5;
+}
+#bEqual {
+    grid-column: 5;
+    grid-row: 6;
+}
+#bDot {
+    grid-column: 2;
+    grid-row: 6;
+}
