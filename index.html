@@ -10,26 +10,27 @@
     <div class="container">
         <div class="cal-box">
             <input type="text" id="display" placeholder="0" readonly>
-            <button type="button" id="b0">0</button>
-            <button type="button" id="b1">1</button>
-            <button type="button" id="b2">2</button>
-            <button type="button" id="b3">3</button>
-            <button type="button" id="b4">4</button>
-            <button type="button" id="b5">5</button>
-            <button type="button" id="b6">6</button>
-            <button type="button" id="b7">7</button>
-            <button type="button" id="b8">8</button>
-            <button type="button" id="b9">9</button>
-            <button type="button" class="mathbutton" id="bAdd">+</button>
-            <button type="button" class="mathbutton" id="bSub">-</button>
-            <button type="button" class="mathbutton" id="bMul">*</button>
-            <button type="button" class="mathbutton" id="bDiv">/</button>
-            <button type="button" id="bC">C</button>
-            <button type="button" id="bCE">CE</button>
-            <button type="button" class="mathbutton" id="bEqual">=</button>
-            <button type="button" id="bDot">.</button>
+            <button type="button" id="b0" onclick="addValue(0)">0</button>
+            <button type="button" id="b1" onclick="addValue(1)">1</button>
+            <button type="button" id="b2" onclick="addValue(2)">2</button>
+            <button type="button" id="b3" onclick="addValue(3)">3</button>
+            <button type="button" id="b4" onclick="addValue(4)">4</button>
+            <button type="button" id="b5" onclick="addValue(5)">5</button>
+            <button type="button" id="b6" onclick="addValue(6)">6</button>
+            <button type="button" id="b7" onclick="addValue(7)">7</button>
+            <button type="button" id="b8" onclick="addValue(8)">8</button>
+            <button type="button" id="b9" onclick="addValue(9)">9</button>
+            <button type="button" class="mathbutton" id="bAdd" onclick="addValue('+')">+</button>
+            <button type="button" class="mathbutton" id="bSub" onclick="addValue('-')">-</button>
+            <button type="button" class="mathbutton" id="bMul" onclick="addValue('*')">*</button>
+            <button type="button" class="mathbutton" id="bDiv" onclick="addValue('/')">/</button>
+            <button type="button" id="bC" onclick="removeValue()">C</button>
+            <button type="button" id="bCE" onclick="CEValue()">CE</button>
+            <button type="button" class="mathbutton" id="bEqual" onclick="equalValue()">=</button>
+            <button type="button" id="bDot" onclick="addValue('.')">.</button>
 
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
